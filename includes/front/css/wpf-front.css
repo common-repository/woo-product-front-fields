@@ -1,0 +1,61 @@
+.wpf-hidden {
+  display: none;
+}
+.wpf-field {
+  margin-bottom: 15px;
+}
+.wpf-radios-widget:after,
+.wpf-checkboxes-group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.wpf_slider_widget {
+  width: 50%;
+}
+.wpf_slider_widget input {
+  margin-bottom: 5px;
+}
+.wpf-image .wpf-radio-item {
+  float: left;
+}
+.wpf-image .wpf-radio-item input + label {
+  position: relative;
+  display: table;
+  padding: 4px;
+  border: 2px solid transparent;
+  border-radius: 5px;
+}
+.wpf-image .wpf-radio-item input + label img {
+  margin: 0 auto;
+}
+.wpf-image .wpf-radio-item .wpf-image-caption {
+  display: none;
+}
+.wpf-image .wpf-radio-item input:checked + label,
+.wpf-image .wpf-radio-item:hover input + label {
+  border: 2px solid #ccc;
+}
+.wpf-image .wpf-radio-item input:checked + label::before,
+.wpf-image .wpf-radio-item:hover input + label::before {
+  content: "\f147";
+  font-family: dashicons;
+  font-size: 22px;
+  color: #fff;
+  background: #ccc;
+  width: 35px;
+  height: 35px;
+  display: block;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  text-align: center;
+  border-radius: 0 0 0 5px;
+}
+.wpf-image .wpf-radio-item input:checked + label .wpf-image-caption,
+.wpf-image .wpf-radio-item:hover input + label .wpf-image-caption {
+  display: block;
+  border-top: 1px #ccc solid;
+  margin-top: 4px;
+  font-size: 15px;
+}

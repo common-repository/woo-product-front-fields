@@ -1,0 +1,114 @@
+.woocommerce_options_panel .wpf-price-calculator {
+  padding: 5px 0 0 15px;
+}
+.woocommerce_options_panel .wpf-price-calculator .wpf-base-price-value {
+  font-weight: bold;
+}
+.woocommerce_options_panel .wpf-price-calculator .wpf-updated-price-value {
+  font-size: 22px;
+  font-weight: bold;
+}
+.woocommerce_options_panel #wpf-fields-picker {
+  margin: 5px 5px 5px 15px;
+}
+.woocommerce_options_panel #wpf-add-field {
+  margin: 5px 0;
+}
+.woocommerce_options_panel .wpf-data {
+  display: table;
+  width: 396px;
+  margin-left: 14px;
+}
+.woocommerce_options_panel .wpf-data table th {
+  font-size: 12px;
+}
+.woocommerce_options_panel .wpf-data .wpf-title {
+  margin-left: 10px;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: bold;
+}
+.woocommerce_options_panel .wpf-data .wpf-field-item {
+  cursor: move;
+  margin: 10px 0;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #ccc;
+  display: none;
+}
+.woocommerce_options_panel .wpf-data .wpf-field-item.checked {
+  display: block;
+}
+.woocommerce_options_panel .wpf-data .wpf-price-section .default {
+  width: 75px;
+}
+.woocommerce_options_panel .wpf-data .wpf-price-section .default span {
+  line-height: 28px;
+}
+.woocommerce_options_panel .wpf-data .wpf-value-section .default ul {
+  margin: 0;
+}
+.woocommerce_options_panel .wpf-data .wpf-value-section .default ul li {
+  margin-bottom: 0px;
+}
+.woocommerce_options_panel .wpf-data .wpf-value-section .default .wpf-default-text {
+  border: 1px solid #bbb;
+  padding: 3px 10px;
+}
+.woocommerce_options_panel .wpf-data .wpf-value-section .default .dashicons {
+  color: #1E8CBE;
+}
+.woocommerce_options_panel .wpf-data .wpf-control {
+  display: table;
+  width: 100%;
+}
+.woocommerce_options_panel .wpf-data .wpf-field-override {
+  float: right;
+}
+.woocommerce_options_panel .wpf-data .wpf-field-override .wpf-override-link {
+  color: #666;
+  text-decoration: none;
+}
+.woocommerce_options_panel .wpf-data .wpf-field-override .wpf-override-link:after {
+  content: "\f140";
+  display: inline-block;
+  font: 400 20px/1 dashicons;
+  speak: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+.woocommerce_options_panel .wpf-data .wpf-field-override .wpf-override-link.disabled {
+  color: #aaa;
+  cursor: default;
+}
+.woocommerce_options_panel .wpf-data .wpf-field-override .wpf-override-link.expanded:after {
+  content: "\f142";
+}
+.woocommerce_options_panel .wpf-data .wpf-override-content {
+  display: table;
+  margin-top: 20px;
+}
+.woocommerce_options_panel .wpf-data .wpf-override-content .wpf-override-value,
+.woocommerce_options_panel .wpf-data .wpf-override-content .wpf-override-radios-value {
+  margin: 0 10px;
+}
+.woocommerce_options_panel .wpf-data .wpf-override-content .wpf-override-price {
+  margin: 0 10px;
+}
+.woocommerce_options_panel .wpf-data .wpf-override-content .wpf-radio-item .wpf-option-price {
+  display: inline-block;
+}
+.woocommerce_options_panel .wpf-data .wpf-override-content input[type=email],
+.woocommerce_options_panel .wpf-data .wpf-override-content input[type=number],
+.woocommerce_options_panel .wpf-data .wpf-override-content input[type=password],
+.woocommerce_options_panel .wpf-data .wpf-override-content input[type=text] {
+  width: 75px;
+  float: none;
+}
+.woocommerce_options_panel .wpf-data label {
+  float: none;
+  width: auto;
+  margin: 0;
+  vertical-align: text-bottom;
+}

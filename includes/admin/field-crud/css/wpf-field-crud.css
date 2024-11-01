@@ -1,0 +1,76 @@
+div[class*="dependency-operation"],
+div[class*="dependency-value-text"],
+div[class*="dependency-value-checkbox"],
+div[class*="dependency-value-radio"],
+.cmb2-id-field-dependency-group .cmb-remove-group-row-button,
+.cmb2-id-field-dependency-group .cmb-add-group-row {
+  display: none;
+}
+.cmb2-media-status .embed-status,
+.cmb2-media-status .img-status {
+  margin-left: 20px;
+}
+.cmb2-id-charge,
+.cmb2-id-field-default-option-single,
+.cmb2-id-field-default-option-multiple {
+  display: none;
+}
+/* Field form */
+.cmb2-wrap input,
+.cmb2-wrap select {
+  margin-right: 7px;
+}
+.wpf-edit-form .cmb2-id-name {
+  display: none;
+}
+.cmb2-id-field-attachment-type {
+  display: none;
+}
+.cmb-th label {
+  padding: 0 !important;
+}
+.cmb2-id-field-options-group.cmb-type-group {
+  margin-bottom: 30px !important;
+}
+.cmb2-id-field-options-group.cmb-type-group .cmb-row {
+  float: left;
+  padding: 0;
+}
+.cmb2-id-field-options-group.cmb-type-group .cmb-row:not(:last-of-type) {
+  border-bottom: none;
+}
+.cmb2-id-field-options-group.cmb-type-group .cmb-row.cmb-remove-field-row {
+  margin-top: 13px;
+  margin-left: 14px;
+  margin-right: 14px;
+}
+.cmb2-id-field-options-group.cmb-type-group .cmb-repeatable-group > .cmb-row {
+  clear: both;
+}
+.cmb2-id-field-options-group.cmb-type-group .cmb-repeatable-group > .cmb-row:last-child {
+  clear: both;
+  float: none;
+}
+.cmb2-id-field-options-group.cmb-type-group .cmb-th,
+.cmb2-id-field-options-group.cmb-type-group .cmb2-postbox .cmb-th {
+  width: auto;
+  float: none;
+  padding: 0;
+}
+.cmb2-id-field-options-group.cmb-type-group .cmb-th + .cmb-td,
+.cmb2-id-field-options-group.cmb-type-group .cmb2-postbox .cmb-th + .cmb-td {
+  width: auto;
+  float: none;
+}
+.cmb2-id-field-options-group.cmb-type-group .cmb-th label,
+.cmb2-id-field-options-group.cmb-type-group input {
+  width: 150px;
+  padding-top: 0px;
+  margin: 0 0 0 16px;
+  padding: 2px;
+}
+.wpf-submit-notice {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 5px;
+}

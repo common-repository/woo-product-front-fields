@@ -1,0 +1,152 @@
+.woocommerce_options_panel {
+
+    .wpf-price-calculator {
+        padding: 5px 0 0 15px;
+        .wpf-base-price-value {
+            font-weight: bold;
+        }
+        .wpf-updated-price-value {
+            font-size: 22px;
+            font-weight: bold;
+        }
+    }
+
+    #wpf-fields-picker {
+        margin: 5px 5px 5px 15px;
+    }
+
+    #wpf-add-field {
+        margin: 5px 0;
+    }
+
+    .wpf-data {
+        display: table;        
+        width: 396px;
+
+        margin-left: 14px;
+        
+        table th {
+            font-size: 12px;        
+        }
+        .wpf-title {
+            margin-left: 10px;
+            
+            vertical-align: middle;
+            
+            font-size: 14px;
+            font-weight: bold;
+        }
+
+        .wpf-field-item {
+            cursor: move;
+            margin: 10px 0;
+            
+            padding-bottom: 14px;
+
+            border-bottom: 1px solid #ccc;
+
+            display: none;
+
+            &.checked {
+                display: block;
+            }
+        }
+        
+        .wpf-price-section .default {
+            width: 75px;
+            span {
+                line-height: 28px;
+            }
+        }
+
+        .wpf-value-section {
+            
+            .default {
+                ul {
+                    margin: 0;
+                    li {
+                        margin-bottom: 0px;
+                    }
+                }
+                
+                .wpf-default-text {
+                    border: 1px solid #bbb;
+                    padding: 3px 10px;
+                }
+
+                .dashicons {
+                    color: #1E8CBE;
+                }
+            }
+        }
+
+        .wpf-control {
+            display: table;
+            width: 100%;
+        }    
+        .wpf-field-override {
+            float: right;
+            .wpf-override-link {
+                color: #666;   
+                text-decoration: none;     
+                &:after {
+                    content: "\f140";
+                    display: inline-block;
+                    font: 400 20px/1 dashicons;
+                    speak: none;
+                    -webkit-font-smoothing: antialiased;
+                    -moz-osx-font-smoothing: grayscale;
+                    text-decoration: none !important;
+                    vertical-align: middle;
+                }
+                
+                &.disabled {
+                    color: #aaa;
+                    cursor: default;
+                }
+
+                &.expanded {
+                    &:after {
+                        content: "\f142";
+                    }
+                }
+            }
+        }
+
+        .wpf-override-content {
+            display: table; 
+
+            margin-top: 20px; 
+
+            .wpf-override-value, .wpf-override-radios-value {
+                margin: 0 10px;
+            }
+
+            .wpf-override-price {
+                margin: 0 10px;
+            }
+
+            .wpf-radio-item {
+
+                .wpf-option-price {
+                    display: inline-block;
+                }
+            }
+
+            input[type=email], 
+            input[type=number], 
+            input[type=password], 
+            input[type=text] {
+                width: 75px;
+                float: none;
+            }
+        }
+
+        label {
+            float: none;
+            width: auto;
+            margin: 0;
+            vertical-align: text-bottom;
+        }
+    }
+}
